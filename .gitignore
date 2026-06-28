@@ -1,6 +1,13 @@
 # Prerequisites
 *.d
 
+# environnement
+.venv/
+venv/
+env/
+.env/
+*.env
+
 # Compiled Object files
 *.slo
 *.lo

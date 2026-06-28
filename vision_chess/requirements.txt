@@ -1,0 +1,17 @@
+# Vision
+opencv-python>=4.9.0
+
+# Détection pièces
+ultralytics>=8.0.0
+
+# Echecs
+python-chess>=1.10.0
+
+# Communication série
+pyserial>=3.5
+
+# LED WS2812 (Raspberry Pi uniquement)
+#rpi-ws281x>=4.3.0
+
+# Utilitaires
+numpy>=1.24.0
