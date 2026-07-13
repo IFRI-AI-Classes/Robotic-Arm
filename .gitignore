@@ -74,3 +74,29 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+
+
+# 1. Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 2. Modèles IA (YOLO)
+*.pt
+*.engine
+
+# 3. Bases de données d'échecs (Lourd !)
+*.bin
+*.rtbz
+*.rtbw
+
+# 4. Fichiers de configuration IDE
+.vscode/
+.idea/
+.gemini/
+.DS_Store
+Thumbs.db
+
+.temp.txt
+.bilan_vision_echecs_v4.docx
