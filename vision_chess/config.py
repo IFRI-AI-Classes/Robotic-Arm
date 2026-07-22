@@ -8,8 +8,8 @@ FRAME_WIDTH  = 640
 FRAME_HEIGHT = 480
 
 # ---Image pour les test ou l'entraînement
-TEST_MODE       = False
-TEST_IMAGE_PATH = r"D:\Web-projects\bras_robotique\test\im.png"
+TEST_MODE       = True
+TEST_IMAGE_PATH = r"D:\Web-projects\bras_robotique\test\images.jpg"
 
 # --- Plateau ---
 INNER_CORNERS = (7, 7)   # coins intérieurs échiquier 8x8
@@ -26,4 +26,7 @@ STABILITY_FRAMES    = 8   # nb de frames stables consécutives requises
 
 # --- Diff ---
 DIFF_THRESHOLD = 20       # diff moyen par case pour dire "case modifiée"
+
+# --- YOLO ---
+YOLO_MODEL_PATH = r"vision_chess\assets\best.pt"
 
