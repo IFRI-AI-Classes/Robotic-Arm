@@ -30,3 +30,21 @@ DIFF_THRESHOLD = 20       # diff moyen par case pour dire "case modifiée"
 # --- YOLO ---
 YOLO_MODEL_PATH = r"vision_chess\assets\best.pt"
 
+# ============================================================
+#  CONFIG — chess_engine & feedback (Phase 3 & 4)
+# ============================================================
+
+STOCKFISH_PATH = r"stockfish" 
+ENGINE_SKILL_LEVEL = 10     
+ENGINE_MOVE_TIME = 1000     
+
+POLYGLOT_PATH = "" 
+SYZYGY_PATH = "" 
+
+LED_COUNT      = 1          
+LED_PIN        = 18         
+LED_FREQ_HZ    = 800000     
+LED_DMA        = 10         
+LED_BRIGHTNESS = 255        
+LED_INVERT     = False      
+LED_CHANNEL    = 0          
