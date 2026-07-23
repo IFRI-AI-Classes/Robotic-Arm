@@ -1,11 +1,18 @@
 import cv2
+import chess
 from perception.camera import fetch_frame
 from perception.stability import StabilityDetector
 from perception.board_detector import detect, draw_grid
 from perception.diff import get_changed_squares
+from chess_engine.engine import ChessEngine
+from chess_engine.validator import validate_move
+from feedback.led import LEDController
 
 stability = StabilityDetector()
 snapshot_before: dict | None = None
+internal_board = chess.Board()
+engine = ChessEngine()
+led = LEDController()
 
 while True:
     frame = fetch_frame()

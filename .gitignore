@@ -75,8 +75,6 @@ vcpkg_installed/
 Testing/
 .cache/
 
-
-
 # 1. Cache de Python
 __pycache__/
 *.py[cod]
