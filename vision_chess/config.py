@@ -3,7 +3,7 @@
 # ============================================================
 
 # --- Caméra ---
-CAMERA_URL = "http://192.168.48.176:8080/shot.jpg"  # IP Webcam
+CAMERA_URL = "http://192.168.183.31:8080/shot.jpg"  # IP Webcam
 FRAME_WIDTH  = 640
 FRAME_HEIGHT = 480
 
@@ -31,7 +31,7 @@ DIFF_THRESHOLD = 20       # diff moyen par case pour dire "case modifiée"
 #  CONFIG — chess_engine & feedback (Phase 3 & 4)
 # ============================================================
 
-STOCKFISH_PATH = r"stockfish" 
+STOCKFISH_PATH = r"stockfish.exe" 
 ENGINE_SKILL_LEVEL = 10     
 ENGINE_MOVE_TIME = 1000     
 
